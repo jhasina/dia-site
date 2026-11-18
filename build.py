@@ -133,6 +133,9 @@ T = [  # (français, malagasy, anglais)
     ("Ton prochain entretien, tu ne l'oublieras plus.", 'Tsy hadinoinao intsony ny fikojakojana manaraka.', "You won't forget your next service again."),
     ('<p>Gratuit, hors ligne, sans compte.</p>', '<p>Maimaim-poana, tsy mila Internet, tsy mila kaonty.</p>', '<p>Free, offline, no account.</p>'),
     ('Télécharger Dia</a>', "Alaivo i Dia</a>", 'Download Dia</a>'),
+    ('<meta property="og:url" content="https://jhasina.github.io/dia-site/fr.html">', '<meta property="og:url" content="https://jhasina.github.io/dia-site/">', '<meta property="og:url" content="https://jhasina.github.io/dia-site/en.html">'),
+    ('"inLanguage":"fr"', '"inLanguage":"mg"', '"inLanguage":"en"'),
+    ('"url":"https://jhasina.github.io/dia-site/fr.html"', '"url":"https://jhasina.github.io/dia-site/"', '"url":"https://jhasina.github.io/dia-site/en.html"'),
     ('<link rel="canonical" href="https://jhasina.github.io/dia-site/fr.html">', '<link rel="canonical" href="https://jhasina.github.io/dia-site/">', '<link rel="canonical" href="https://jhasina.github.io/dia-site/en.html">'),
     ('Fait avec passion par Jhasina', "Natao tamim-pitiavana nataon'i Jhasina", 'Made with passion by Jhasina'),
 ]
