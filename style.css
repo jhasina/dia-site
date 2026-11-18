@@ -207,3 +207,4 @@ nav .lng a[aria-current]{background:var(--acc);color:var(--on-acc)}
  .xp-note{display:block}
 }
 .show{grid-template-columns:minmax(0,1fr)}@media (min-width:860px){.show{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}}
+.lng{align-items:center;align-self:center}nav .lng a{display:grid;place-items:center;line-height:1;height:28px;padding:0 9px}@media (max-width:640px){nav .lng a{height:40px;padding:0 16px}}
