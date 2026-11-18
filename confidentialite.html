@@ -43,6 +43,8 @@
 <li><strong>Notifications</strong> : rappels d'entretien.</li>
 <li><strong>Démarrage du téléphone</strong> : reprogrammer les rappels après un redémarrage.</li><li>Les photos et fichiers passent par le sélecteur d'Android : Dia ne voit que ce que tu choisis.</li>
 </ul>
+<h2>Le site</h2>
+<p>Ce site compte les visites de façon anonyme avec GoatCounter : pages vues, pays et site de provenance, sans cookie ni identifiant, sans suivre personne d'une page à l'autre. L'app Dia, elle, ne mesure rien.</p>
 <h2>Contact</h2>
 <p>Questions : <a href="https://github.com/jhasina">github.com/jhasina</a>.</p>
 </div>
@@ -65,6 +67,8 @@
 <li><strong>Notifications</strong>: maintenance reminders.</li>
 <li><strong>Boot</strong>: re-schedule reminders after a restart.</li><li>Photos and files go through the Android picker: Dia only sees what you choose.</li>
 </ul>
+<h2>This website</h2>
+<p>This website counts visits anonymously with GoatCounter: page views, country and referring site, with no cookies or identifiers, and no tracking from page to page. The Dia app itself measures nothing.</p>
 <h2>Contact</h2>
 <p>Questions: <a href="https://github.com/jhasina">github.com/jhasina</a>.</p>
 </div>
@@ -87,6 +91,8 @@
 <li><strong>Fampandrenesana</strong>: fampahatsiahivana fikojakojana.</li>
 <li><strong>Fanombohan'ny finday</strong>: mamerina ny fampahatsiahivana aorian'ny famelomana indray.</li><li>Ny sary sy ny rakitra dia mandalo amin'ny mpifidy Android: izay safidinao ihany no hitan'i Dia.</li>
 </ul>
+<h2>Ity tranonkala ity</h2>
+<p>Manisa ny mpitsidika tsy mitonona anarana amin'ny GoatCounter ity tranonkala ity: pejy jerena, firenena ary tranonkala niaviana, tsy misy cookie na famantarana, tsy misy manaraka olona. Ny app Dia kosa tsy mandrefy na inona na inona.</p>
 <h2>Fifandraisana</h2>
 <p>Fanontaniana: <a href="https://github.com/jhasina">github.com/jhasina</a>.</p>
 </div>
@@ -104,5 +110,6 @@ const Ls=[...document.querySelectorAll('.langs a')],S=[...document.querySelector
 function cur(){const y=170;let i=0;S.forEach((s,j)=>{if(s.getBoundingClientRect().top<=y)i=j});Ls.forEach((a,j)=>a.setAttribute('aria-current',j==i));const id=S[i].id;document.querySelectorAll('.lng a').forEach(a=>a.hash=='#'+id?a.setAttribute('aria-current','true'):a.removeAttribute('aria-current'));B.classList.toggle('stuck',B.getBoundingClientRect().top<=66)}
 addEventListener('scroll',cur,{passive:true});cur();
 </script>
+<script data-goatcounter="https://dia-app.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
