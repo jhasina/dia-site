@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="mg" class="js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dia — diarin'ny fikojakojana ny fiaranao</title>
+<meta name="description" content="Manaraka ny fikojakojana, ny solika ary ny dian'ny fiaranao rehetra i Dia. Maimaim-poana, mandeha tsy misy Internet, tsy mila kaonty, tsy misy dokam-barotra. Natao ho an'i Madagasikara.">
+<meta name="theme-color" content="#0B0B0B">
+<meta property="og:title" content="Dia — diarin'ny fikojakojana ny fiaranao">
+<meta property="og:description" content="Maimaim-poana, tsy mila Internet, tsy mila kaonty, tsy misy dokam-barotra.">
+<meta property="og:image" content="https://jhasina.github.io/dia-site/img/01-accueil.png">
+<link rel="canonical" href="https://jhasina.github.io/dia-site/">
+<link rel="alternate" hreflang="mg" href="./">
+<link rel="alternate" hreflang="fr" href="fr.html">
+<link rel="alternate" hreflang="en" href="en.html">
+<link rel="icon" href="img/icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Urbanist:wght@700;800&display=swap" rel="stylesheet">
+<script>try{document.documentElement.dataset.theme=localStorage.dia_theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch(e){document.documentElement.dataset.theme='dark'}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Mankany amin'ny votoaty</a>
+<header><div class="wrap">
+  <a class="logo" href="./"><img src="img/icone.png" alt="Dia" width="32" height="32"><span aria-hidden="true">Dia</span></a>
+  <nav id="nav" aria-label="Lahatsoratra fototra">
+    <a class="hide" href="#fonctions">Asa</a>
+    <a class="hide" href="#faq">Fanontaniana</a>
+    <a href="#soutenir">Hanohana</a>
+    <div class="lng" aria-label="Fiteny"><a href="./" hreflang="mg" lang="mg" aria-current="page">MG</a><a href="fr.html" hreflang="fr" lang="fr">FR</a><a href="en.html" hreflang="en" lang="en">EN</a></div>
+  </nav>
+<button class="key" type="button" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg><span>Menu</span></button>
+<button class="theme" type="button" aria-label="Hanova loko" onclick="const t=document.documentElement.dataset.theme=document.documentElement.dataset.theme=='light'?'dark':'light';try{localStorage.dia_theme=t}catch(e){}"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+</div></header>
+
+<main id="main">
+<div class="hero-bg">
+<div class="wrap hero">
+  <div data-r class="hero-tx">
+    <span class="tag"><b>Maimaim-poana</b> Android · FR · EN · MG</span>
+    <h1>Ny diarin'ny fikojakojana ny fiaranao, <em>ao am&#8209;paosinao</em>.</h1>
+    <p class="lead">Scooter, moto, fiara, kamiao na bisikileta: manaraka ny fikojakojana, ny solika ary ny dia i Dia. Tsy mila Internet, tsy mila kaonty, tsy misy dokam-barotra.</p>
+    <div class="cta">
+      <a class="btn pri" href="https://github.com/jhasina/dia-site/releases/latest/download/Dia.apk" id="dl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>Alaivo ny APK</a>
+      <a class="btn sec" href="#fonctions">Hijery</a>
+    </div>
+  </div>
+  <div data-r class="stage">
+    <img class="phone" src="img/01-accueil.png" alt="Pejy fandraisan'i Dia miaraka amin'ireo fampahatsiahivana ho avy" width="260" height="563">
+    <div class="float f1"><span class="dot warn"></span><div><b>Vidanzy</b><small>afaka 320 km</small></div></div>
+    <div class="float f2"><span class="big">12,4</span><small>km/L ity volana ity</small></div>
+    <div class="float f3"><span class="dot ok"></span><div><b>Toeram-pivarotana solika</b><small>18 km eny an-dalanao</small></div></div>
+  </div>
+</div>
+<div data-r class="wrap pills" aria-label="Fanomezan-toky">
+  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Tsy mila Internet</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Tsy mila kaonty</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Tsy misy dokam-barotra</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Ariary avy hatrany</span>
+</div>
+</div>
+
+<section id="fonctions"><div class="wrap">
+  <h2 data-r class="sh">Izay ilaina rehetra, tsy misy be loatra</h2>
+  <p data-r class="ss">Natao ho an'i Madagasikara aloha i <em>Dia</em>, nefa mandeha na aiza na aiza.</p>
+  <div class="bento">
+    <article data-r class="tile wide"><div class="tx"><h3>Fikojakojana sy fampahatsiahivana</h3><p>Tantaran'ny asa natao miaraka amin'ny sarin'ny faktiora. Fampahatsiahivana « km na faharetana, izay tonga voalohany », na dia mikatona aza ny app.</p></div><img src="img/03-entretien.png" alt="Fikojakojana fiara iray" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile "><div class="tx"><h3>Solika</h3><p>Saha 2 amin'ny 3 ihany, fanjifana, vidiny isaky ny km, halaviran-dalana azo atao araka ny jauge-nao.</p></div><img src="img/04-carburant.png" alt="Fanarahana ny solika" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile "><div class="tx"><h3>Kaontera GPS</h3><p>Hafainganana, halavirana ary lalana nodiavina, na dia any ambadika aza.</p></div><img src="img/07-compteur.png" alt="Kaontera GPS" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile wide"><div class="tx"><h3>Hanomana dia</h3><p>Lalana, toeram-pivarotana solika eny an-dalana, fampitandremana raha misy elanelana mihoatra ny solika ananao.</p></div><img src="img/08-preparer.png" alt="Fanomanana dia eo amin'ny sarintany" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile "><div class="tx"><h3>Rakitsoratra</h3><p>Olana, andrana, fanamboarana, firafitry ny fiara.</p></div><img src="img/05-journal.png" alt="Rakitsoratra" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile lock"><div class="tx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3>Aminao ihany ny angonao</h3><p>Tsy misy mivoaka ny findainao. Tsy misy mpizara, tsy misy fanaraha-maso. Azonao aondrana JSON na CSV rehefa tianao.</p><a href="confidentialite.html#mg">Fiainana manokana</a></div></article>
+  </div>
+</div></section>
+
+<section class="steps-sec"><div class="wrap">
+  <h2 data-r class="sh">Vonona amin'ny dingana 3</h2>
+  <ol data-r class="steps">
+    <li><span>1</span><h3>Ampidiro ny fiaranao</h3><p>Karazany, angovo, kaontera. Manolotra ny fampahatsiahivana mety i Dia.</p></li>
+    <li><span>2</span><h3>Soraty ny solika sy ny fikojakojana</h3><p>Segondra vitsy eny amin'ny toeram-pivarotana solika na any amin'ny garazy.</p></li>
+    <li><span>3</span><h3>Mandehana am-piadanana</h3><p>Mampahatsiahy anao i Dia alohan'ny vidanzy, ny frein na ny courroie.</p></li>
+  </ol>
+</div></section>
+
+<section id="captures" class="xp"><div class="xp-pin"><div class="wrap">
+  <p class="xp-bg" aria-hidden="true">Sary</p>
+  <div class="show" data-r>
+    <div class="show-side">
+      <h2 class="visually-hidden">Sary</h2>
+      <div class="show-tabs" role="tablist" aria-label="Ireo pejin'i Dia"><button role="tab" aria-selected="true" aria-controls="show-card"><i>01</i>Garazy</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>02</i>Fanairana</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>03</i>Solika</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>04</i>Dia</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>05</i>Rakitsoratra</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>06</i>Fikirana</button></div>
+      <p class="xp-tag">Pejy iray isaky ny filana.<br>Ao anaty app iray ihany ny zava-drehetra.</p>
+    </div>
+    <div class="show-card" id="show-card" role="tabpanel">
+      <div class="show-stage"><div class="show-phone"><img src="img/02-garage.png" alt="Pejy Garazy ao amin'i Dia" width="390" height="844" data-h="Ny fiaranao rehetra, rakitsoratra iray." data-d="Scooter, fiara, bisikileta: samy manana ny kaonterany, ny fampahatsiahivany ary ny fandaniany." class=on><img src="img/09-rappels.png" alt="Pejy Fanairana ao amin'i Dia" width="390" height="844" data-h="Tsy misy hadino." data-d="Tara, efa ho tonga, vita: hita indray mijery ny toetry ny fikojakojana tsirairay." loading=lazy><img src="img/04-carburant.png" alt="Pejy Solika ao amin'i Dia" width="390" height="844" data-h="Manan-danja ny solika rehetra." data-d="Fanjifana, vidiny isaky ny km ary vidiny antonony, kajiana ho anao." loading=lazy><img src="img/08-preparer.png" alt="Pejy Dia ao amin'i Dia" width="390" height="844" data-h="Miaingà am-piadanana." data-d="Lalana, toeram-pivarotana solika eny an-dalana ary fampitandremana momba ny solika alohan'ny hiaingana." loading=lazy><img src="img/05-journal.png" alt="Pejy Rakitsoratra ao amin'i Dia" width="390" height="844" data-h="Ny fahatsiarovan'ny fiaranao." data-d="Olana, andrana ary fanamboarana voasoratra tsikelikely, hita amin'ny fikarohana iray." loading=lazy><img src="img/10-reglages.png" alt="Pejy Fikirana ao amin'i Dia" width="390" height="844" data-h="Dia, araka ny fomba tianao." data-d="Fiteny, vola, loko, haben'ny soratra ary fitehirizana." loading=lazy></div></div>
+      <h3 id="show-h">Ny fiaranao rehetra, rakitsoratra iray.</h3>
+      <p id="show-d">Scooter, fiara, bisikileta: samy manana ny kaonterany, ny fampahatsiahivany ary ny fandaniany.</p>
+    </div>
+  </div>
+  <p class="xp-note">Sary nalaina tamin'ny angona fanandramana.</p>
+</div></div></section>
+
+<section id="faq"><div class="wrap faq">
+  <h2 data-r class="sh">Fanontaniana matetika</h2>
+  <details data-r><summary>Mandeha tsy misy Internet ve i Dia?</summary><p>Eny. Mandeha tsy misy Internet ny zava-drehetra, afa-tsy ny sarintany sy ny fanomanana dia, izay mila tambajotra rehefa mikaroka.</p></details>
+  <details data-r><summary>Tena maimaim-poana ve?</summary><p>Eny: tsy misy dokam-barotra, tsy misy famandrihana, tsy misy dikan-teny andoavam-bola. Velona amin'ny fanomezan'izay maniry ny app.</p></details>
+  <details data-r><summary>Aiza ny angoko?</summary><p>Ao amin'ny findainao ihany. Tsy misy kaonty, tsy misy mpizara Dia. Aza adino ny manondrana fitehirizana (Fikirana) alohan'ny hanovana finday.</p></details>
+  <details data-r><summary>Amin'ny finday inona?</summary><p>Android 7 na vaovao kokoa. Mbola tsy misy ho an'ny iPhone aloha.</p></details>
+  <details data-r><summary>Fiara inona avy?</summary><p>Scooter, moto, fiara, fiara fitaterana entana, kamiao, bisikileta ary bisikileta elektrika, araka izay itiavanao.</p></details>
+</div></section>
+
+<section id="soutenir"><div class="wrap">
+  <div data-r class="don">
+    <div>
+      <h2 data-r class="sh">Maimaim-poana i Dia. Tena izy.</h2>
+      <p>Tsy misy dokam-barotra, tsy misy famandrihana, tsy misy angona amidy. Raha mahasoa anao ny app, fanomezana kely dia manampy amin'ny fikojakojana azy. MVola na karatra banky, ianao no mamaritra ny vola.</p>
+    </div>
+    <a class="btn pri" href="https://payment-form.papi.mg/1209/payments/c/soutenir-app-dia" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 12 5.5 5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z"/></svg>Hanohana an'i Dia</a>
+  </div>
+</div></section>
+<section data-r class="final"><div class="wrap">
+  <h2>Tsy hadinoinao intsony ny fikojakojana manaraka.</h2>
+  <p>Maimaim-poana, tsy mila Internet, tsy mila kaonty.</p>
+  <a class="btn pri" href="https://github.com/jhasina/dia-site/releases/latest/download/Dia.apk" data-dl><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>Alaivo i Dia</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>Dia · Natao tamim-pitiavana nataon'i Jhasina</span>
+  <a href="confidentialite.html#mg">Fiainana manokana</a>
+</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+const K=document.querySelector('.key'),N=document.getElementById('nav');
+function menu(o){K.setAttribute('aria-expanded',o);N.classList.toggle('open',o)}
+K.onclick=()=>menu(K.getAttribute('aria-expanded')!='true');
+N.onclick=e=>{if(e.target.closest('a'))menu(false)};
+addEventListener('keydown',e=>{if(e.key=='Escape'&&N.classList.contains('open')){menu(false);K.focus()}});
+const calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(calm)document.documentElement.classList.remove('js');
+else{
+  if(window.Lenis){const l=window.lenis=new Lenis({anchors:{offset:-80}});(function f(t){l.raf(t);requestAnimationFrame(f)})(0)}
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -10% 0px'});
+  document.querySelectorAll('[data-r]').forEach(el=>io.observe(el));
+}
+const T=[...document.querySelectorAll('.show-tabs button')],P=[...document.querySelectorAll('.show-phone img')],H=document.getElementById('show-h'),D=document.getElementById('show-d'),X=document.getElementById('captures');
+let cur=-1;
+function go(i){if(i==cur)return;cur=i;T.forEach((b,j)=>b.setAttribute('aria-selected',j==i));P.forEach((p,j)=>p.classList.toggle('on',j==i));H.textContent=P[i].dataset.h;D.textContent=P[i].dataset.d}
+const wide=matchMedia('(min-width: 860px)');
+// grand écran : le défilement dans la section épinglée choisit l'écran ; mobile : onglets simples
+function step(){if(!wide.matches)return;const r=X.getBoundingClientRect(),run=r.height-innerHeight;if(run<=0)return;go(Math.floor(Math.min(Math.max(-r.top/run,0),.999)*T.length))}
+addEventListener('scroll',step,{passive:true});go(0);step();
+T.forEach((b,i)=>b.onclick=()=>{if(!wide.matches)return go(i);const run=X.offsetHeight-innerHeight,y=X.getBoundingClientRect().top+scrollY+run*(i+.5)/T.length;window.lenis?lenis.scrollTo(y):scrollTo({top:y,behavior:calm?'auto':'smooth'})});
+</script>
+</body>
+</html>
