@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Dia — the maintenance log for your vehicles</title>
 <meta name="description" content="Dia tracks maintenance, fuel and trips for all your vehicles. Free, offline, no account and no ads. Built for Madagascar.">
-<meta name="theme-color" content="#0B0B0B">
+<meta name="theme-color" content="#0C0B0A">
 <meta property="og:title" content="Dia — the maintenance log for your vehicles">
 <meta property="og:description" content="Free, offline, no account, no ads.">
 <meta property="og:image" content="https://jhasina.github.io/dia-site/img/01-accueil.png">
@@ -16,11 +16,11 @@
 <link rel="alternate" hreflang="x-default" href="https://jhasina.github.io/dia-site/">
 <meta property="og:url" content="https://jhasina.github.io/dia-site/en.html">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dia","inLanguage":"en","operatingSystem":"Android 7.0+","applicationCategory":"TravelApplication","description":"Dia tracks maintenance, fuel and trips for all your vehicles. Free, offline, no account and no ads. Built for Madagascar.","url":"https://jhasina.github.io/dia-site/en.html","downloadUrl":"https://github.com/jhasina/dia-site/releases/latest/download/Dia.apk","softwareVersion":"0.1.6","image":"https://jhasina.github.io/dia-site/img/icone.png","screenshot":"https://jhasina.github.io/dia-site/img/01-accueil.png","author":{"@type":"Person","name":"Jhasina"},"offers":{"@type":"Offer","price":"0","priceCurrency":"MGA"}}
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Dia","inLanguage":"en","operatingSystem":"Android 7.0+","applicationCategory":"TravelApplication","description":"Dia tracks maintenance, fuel and trips for all your vehicles. Free, offline, no account and no ads. Built for Madagascar.","url":"https://jhasina.github.io/dia-site/en.html","downloadUrl":"https://github.com/jhasina/dia-site/releases/latest/download/Dia.apk","softwareVersion":"0.1.7","image":"https://jhasina.github.io/dia-site/img/icone.png","screenshot":"https://jhasina.github.io/dia-site/img/01-accueil.png","author":{"@type":"Person","name":"Jhasina"},"offers":{"@type":"Offer","price":"0","priceCurrency":"MGA"}}
 </script>
 <link rel="icon" href="img/icone.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Urbanist:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 <script>try{document.documentElement.dataset.theme=localStorage.dia_theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch(e){document.documentElement.dataset.theme='dark'}</script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -70,7 +70,7 @@
     <article data-r class="tile "><div class="tx"><h3>Fuel</h3><p>Fill 2 fields out of 3, consumption, cost per km, range from your fuel gauge.</p></div><img src="img/04-carburant.png" alt="Fuel tracking" loading="lazy" width="390" height="844"></article>
     <article data-r class="tile "><div class="tx"><h3>GPS speedometer</h3><p>Speed, distance and track, even in the background.</p></div><img src="img/07-compteur.png" alt="GPS speedometer" loading="lazy" width="390" height="844"></article>
     <article data-r class="tile wide"><div class="tx"><h3>Plan a trip</h3><p>Route, fuel stations on the way, warning if a stretch exceeds your range.</p></div><img src="img/08-preparer.png" alt="Planning a trip on the map" loading="lazy" width="390" height="844"></article>
-    <article data-r class="tile "><div class="tx"><h3>Logbook</h3><p>Problems, tests, adjustments, vehicle setup.</p></div><img src="img/05-journal.png" alt="Logbook" loading="lazy" width="390" height="844"></article>
+    <article data-r class="tile "><div class="tx"><h3>Notes and tracking</h3><p>Problems, tests, adjustments, vehicle setup.</p></div><img src="img/05-journal.png" alt="Vehicle notes and tracking" loading="lazy" width="390" height="844"></article>
     <article data-r class="tile lock"><div class="tx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3>Your data stays with you</h3><p>Nothing leaves your phone. No server, no tracker. Export to JSON or CSV whenever you like.</p><a href="confidentialite.html#en">Privacy</a></div></article>
   </div>
 </div></section>
@@ -89,11 +89,11 @@
   <div class="show" data-r>
     <div class="show-side">
       <h2 class="visually-hidden">Screens</h2>
-      <div class="show-tabs" role="tablist" aria-label="Dia screens"><button role="tab" aria-selected="true" aria-controls="show-card"><i>01</i>Garage</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>02</i>Reminders</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>03</i>Fuel</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>04</i>Trips</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>05</i>Logbook</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>06</i>Settings</button></div>
+      <div class="show-tabs" role="tablist" aria-label="Dia screens"><button role="tab" aria-selected="true" aria-controls="show-card"><i>01</i>Garage</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>02</i>Reminders</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>03</i>Fuel</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>04</i>Trips</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>05</i>Notes</button><button role="tab" aria-selected="false" aria-controls="show-card"><i>06</i>Settings</button></div>
       <p class="xp-tag">One screen per need.<br>All in the same app.</p>
     </div>
     <div class="show-card" id="show-card" role="tabpanel">
-      <div class="show-stage"><div class="show-phone"><img src="img/02-garage.png" alt="Dia Garage screen" width="390" height="844" data-h="All your vehicles, one log." data-d="Scooter, car, bike: each with its own odometer, reminders and expenses." class=on><img src="img/09-rappels.png" alt="Dia Reminders screen" width="390" height="844" data-h="Nothing slips through." data-d="Overdue, soon, up to date: every service at a glance." loading=lazy><img src="img/04-carburant.png" alt="Dia Fuel screen" width="390" height="844" data-h="Every fill-up counts." data-d="Consumption, cost per km and average price, worked out for you." loading=lazy><img src="img/08-preparer.png" alt="Dia Trip screen" width="390" height="844" data-h="Leave with peace of mind." data-d="Route, fuel stations on the way and range warning before you leave." loading=lazy><img src="img/05-journal.png" alt="Dia Logbook screen" width="390" height="844" data-h="Your vehicle's memory." data-d="Problems, tests and adjustments noted as you go, found with one search." loading=lazy><img src="img/10-reglages.png" alt="Dia Settings screen" width="390" height="844" data-h="Dia, your way." data-d="Language, currency, theme, text size and backup." loading=lazy></div></div>
+      <div class="show-stage"><div class="show-phone"><img src="img/02-garage.png" alt="Dia Garage screen" width="390" height="844" data-h="All your vehicles, one log." data-d="Scooter, car, bike: each with its own odometer, reminders and expenses." class=on><img src="img/09-rappels.png" alt="Dia Reminders screen" width="390" height="844" data-h="Nothing slips through." data-d="Overdue, soon, up to date: every service at a glance." loading=lazy><img src="img/04-carburant.png" alt="Dia Fuel screen" width="390" height="844" data-h="Every fill-up counts." data-d="Consumption, cost per km and average price, worked out for you." loading=lazy><img src="img/08-preparer.png" alt="Dia Trip screen" width="390" height="844" data-h="Leave with peace of mind." data-d="Route, fuel stations on the way and range warning before you leave." loading=lazy><img src="img/05-journal.png" alt="Dia Notes and tracking screen" width="390" height="844" data-h="Your vehicle's memory." data-d="Problems, tests and adjustments noted as you go, found with one search." loading=lazy><img src="img/10-reglages.png" alt="Dia Settings screen" width="390" height="844" data-h="Dia, your way." data-d="Language, currency, theme, text size and backup." loading=lazy></div></div>
       <h3 id="show-h">All your vehicles, one log.</h3>
       <p id="show-d">Scooter, car, bike: each with its own odometer, reminders and expenses.</p>
     </div>
