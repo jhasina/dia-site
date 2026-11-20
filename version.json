@@ -1,10 +1,10 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "size": "19 Mo",
   "url": "https://github.com/jhasina/dia-site/releases/latest/download/Dia.apk",
   "notes": {
-    "fr": ["L'export enregistre enfin le fichier : tu choisis le dossier.", "Pleins partiels reconnus depuis la jauge.", "Nouvelle apparence « Carnet »."],
-    "en": ["Export now really saves the file: you choose the folder.", "Partial fill-ups detected from the gauge.", "New “Carnet” look."],
-    "mg": ["Voatahiry tokoa ny rakitra rehefa manondrana: ianao no misafidy ny toerana.", "Fantatra avy amin'ny jauge ny famenoana tsy feno.", "Endrika vaovao « Carnet »."]
+    "fr": ["Niveau du réservoir après chaque ravitaillement et km parcourus.", "Export possible vers Google Drive.", "Traductions anglais et malgache complétées."],
+    "en": ["Tank level after each fill-up and distance driven.", "Export now works to Google Drive.", "English and Malagasy translations completed."],
+    "mg": ["Ny solika ao anaty fitoerana aorian'ny famenoana sy ny km nodiavina.", "Azo atao ny manondrana any amin'ny Google Drive.", "Vita ny dikan-teny anglisy sy malagasy."]
   }
 }
