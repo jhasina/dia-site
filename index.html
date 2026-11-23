@@ -21,7 +21,7 @@
 <link rel="icon" href="img/icone.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-<script>function dt(t){document.documentElement.dataset.theme=t;document.querySelectorAll('img[src*="img/"]').forEach(i=>{const s=i.getAttribute('src'),n=s.replace(/img\/(clair\/)?(?=\d\d-)/,t=='light'?'img/clair/':'img/');if(n!=s)i.src=n})}
+<script>function dt(t){document.documentElement.dataset.theme=t;document.querySelectorAll('img[src*="img/"]').forEach(i=>{const s=i.getAttribute('src'),n=s.replace(/img\/(clair\/)?(?=\d\d-)/,t=='dark'?'img/clair/':'img/');if(n!=s)i.src=n})}
 try{dt(localStorage.dia_theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'))}catch(e){dt('dark')}addEventListener('DOMContentLoaded',()=>dt(document.documentElement.dataset.theme))</script>
 <link rel="stylesheet" href="style.css">
 </head>
