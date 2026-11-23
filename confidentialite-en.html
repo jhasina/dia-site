@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy — Dia</title>
+<meta name="description" content="Privacy policy of the Dia app: no data collected, everything stays on the phone.">
+<meta name="theme-color" content="#0C0B0A">
+<link rel="canonical" href="https://jhasina.github.io/dia-site/confidentialite-en.html">
+<link rel="alternate" hreflang="mg" href="https://jhasina.github.io/dia-site/confidentialite.html"><link rel="alternate" hreflang="fr" href="https://jhasina.github.io/dia-site/confidentialite-fr.html"><link rel="alternate" hreflang="en" href="https://jhasina.github.io/dia-site/confidentialite-en.html">
+<link rel="icon" href="img/icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<script>try{document.documentElement.dataset.theme=localStorage.dia_theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch(e){document.documentElement.dataset.theme='dark'}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-prose">
+<header><div class="wrap">
+  <a class="logo" href="en.html"><img src="img/icone.png" alt="Dia" width="32" height="32"><span aria-hidden="true">Dia</span></a>
+  <nav id="nav" aria-label="Main"><a href="en.html">Home</a><a href="en.html#fonctions">Features</a><a href="en.html#faq">FAQ</a><a href="en.html#soutenir">Support</a><div class="lng" aria-label="Language"><a href="confidentialite.html" hreflang="mg" lang="mg">MG</a><a href="confidentialite-fr.html" hreflang="fr" lang="fr">FR</a><a href="confidentialite-en.html" hreflang="en" lang="en" aria-current="page">EN</a></div></nav>
+<button class="key" type="button" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg><span>Menu</span></button>
+
+<button class="theme" type="button" aria-label="Change theme" onclick="const t=document.documentElement.dataset.theme=document.documentElement.dataset.theme=='light'?'dark':'light';try{localStorage.dia_theme=t}catch(e){}"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+</div></header>
+<main class="prose">
+<h1>Privacy</h1>
+<p>Updated: 18 November 2026</p>
+<h2>In short</h2>
+<p><strong>Dia collects no personal data.</strong> No account, no Dia server, no ads, no trackers or usage analytics.</p>
+<h2>Your data</h2>
+<p>Vehicles, maintenance, fuel-ups, logbook, photos and trips are stored only on your phone. They leave it only if you export them yourself (JSON or CSV). Uninstalling the app deletes them.</p>
+<h2>Internet connections</h2>
+<p>Only when the feature is used:</p>
+<ul>
+<li><strong>Map tiles</strong>: OpenFreeMap.</li>
+<li><strong>Trip planning</strong>: place search (Photon), routing (OSRM), fuel stations (Overpass / OpenStreetMap). Only start, destination and route are sent, with no identifier.</li>
+<li><strong>Support Dia</strong>: the donation link opens in your browser, on the Papi payment site.</li>
+</ul>
+<h2>Android permissions</h2>
+<ul>
+<li><strong>Location</strong>: GPS speedometer and trips, only when you start them; your position is never sent.</li>
+<li><strong>Notifications</strong>: maintenance reminders.</li>
+<li><strong>Boot</strong>: re-schedule reminders after a restart.</li><li>Photos and files go through the Android picker: Dia only sees what you choose.</li>
+</ul>
+<h2>This website</h2>
+<p>This website counts visits anonymously with GoatCounter: page views, country and referring site, with no cookies or identifiers, and no tracking from page to page. The Dia app itself measures nothing.</p>
+<h2>Contact</h2>
+<p>Questions: <a href="https://github.com/jhasina">github.com/jhasina</a>.</p>
+</main>
+<footer><div class="wrap"><span>Dia · Made with passion by Jhasina</span><a href="en.html">Home</a></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+if(window.Lenis&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const l=window.lenis=new Lenis({anchors:{offset:-146}});(function f(t){l.raf(t);requestAnimationFrame(f)})(0)}
+const K=document.querySelector('.key'),N=document.getElementById('nav');
+function menu(o){K.setAttribute('aria-expanded',o);N.classList.toggle('open',o)}
+N.onclick=e=>{if(e.target.closest('a'))menu(false)};
+K.onclick=()=>menu(K.getAttribute('aria-expanded')!='true');
+addEventListener('keydown',e=>{if(e.key=='Escape'&&N.classList.contains('open')){menu(false);K.focus()}});
+</script>
+<script data-goatcounter="https://dia-app.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

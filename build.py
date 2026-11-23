@@ -69,7 +69,7 @@ T = [  # (français, malagasy, anglais)
     ('Rien ne quitte le téléphone. Pas de serveur, pas de pisteur. Export JSON ou CSV quand tu veux.',
      "Tsy misy mivoaka ny findainao. Tsy misy mpizara, tsy misy fanaraha-maso. Azonao aondrana JSON na CSV rehefa tianao.",
      'Nothing leaves your phone. No server, no tracker. Export to JSON or CSV whenever you like.'),
-    ('#fr">Confidentialité</a>', '#mg">Fiainana manokana</a>', '#en">Privacy</a>'),
+    ('confidentialite-fr.html">Confidentialité</a>', 'confidentialite.html">Fiainana manokana</a>', 'confidentialite-en.html">Privacy</a>'),
     ('Prêt en 3 étapes', 'Vonona amin\'ny dingana 3', 'Ready in 3 steps'),
     ('<h3>Ajoute ton véhicule</h3>', '<h3>Ampidiro ny fiaranao</h3>', '<h3>Add your vehicle</h3>'),
     ('Type, énergie, compteur. Dia propose les bons rappels.', "Karazany, angovo, kaontera. Manolotra ny fampahatsiahivana mety i Dia.", 'Type, energy, odometer. Dia suggests the right reminders.'),
